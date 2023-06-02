@@ -1,0 +1,103 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    display: flex;
+    background-color: rgb(107, 3, 59);
+}
+#wrapper{
+    background: rgba(255,255,255,0.75);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px;
+    padding: 1%;
+    flex-basis: 400px;
+    height: 540px;
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+}
+
+#tela{
+    text-align: right;
+    background: rgb(255,255,255);
+    border-radius: 16px;
+    padding: 2%;
+    margin-bottom: 4%;
+    font-size: 36px;
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+}
+
+.number-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 6%;
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+}
+
+.button-operations{
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid;
+    border-radius: 6px;
+    flex-basis: 20%;
+    font-size: 24px;
+    height: 66px;
+}
+.button-operations:hover{
+    background-color: inherit;
+}
+
+.button-operations:active{
+    background-color:rgb(227, 200, 252);
+}
+.button-operations-zero{
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid;
+    border-radius: 6px;
+    flex-basis: 20%;
+    font-size: 24px;
+    height: 66px;
+    flex-basis: 47%;
+}
+.button-operations-zero:hover{
+    background-color: inherit;
+}
+
+.button-operations-zero:active{
+    background-color:rgb(227, 200, 252);
+}
+.button-operations-equals{
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid;
+    border-radius: 6px;
+    flex-basis: 20%;
+    font-size: 24px;
+    height: 66px;
+    flex-basis: 47%;
+}
+.button-operations-equals:hover{
+    background-color: inherit;
+}
+
+.button-operations-equals:active{
+    background-color:rgb(227, 200, 252);
+}
+.button-operations-C{
+    font-family: Impact, fantasy, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid;
+    border-radius: 6px;
+    flex-basis: 20%;
+    font-size: 24px;
+    height: 66px;
+    flex-basis: 47%;
+}
+.button-operations-C:hover{
+    background-color: inherit;
+}
+
+.button-operations-C:active{
+    background-color:rgb(227, 200, 252);
+}
